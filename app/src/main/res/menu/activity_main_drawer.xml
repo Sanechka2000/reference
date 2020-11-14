@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group>
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_action_home"
+            android:title="@string/menu_home" />
+
+    </group>
+
+    <item
+        android:id="@+id/nav_header"
+        android:title="@string/menu_header">
+        <menu>
+            <group >
+                <item
+                    android:id="@+id/nav_formuls"
+                    android:title="@string/menu_formuls" />
+                <item
+                    android:id="@+id/glossary"
+                    android:title="Словарик :)" />
+                <item
+                    android:id="@+id/commputer"
+                    android:title="2" />
+                <item
+                    android:id="@+id/nav_windows"
+                    android:icon="@drawable/ic_action_windows"
+                    android:title="@string/menu_windows" />
+                <item
+                    android:id="@+id/nav_linux"
+                    android:icon="@drawable/ic_action_linux"
+                    android:title="@string/menu_linux" />
+            </group>
+        </menu>
+    </item>
+</menu>

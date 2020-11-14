@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="xyz.lob.referenceofcomputerscience.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_linux"
+        android:name="xyz.lob.referenceofcomputerscience.ui.gallery.GalleryFragment"
+        android:label="@string/menu_linux"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_windows"
+        android:name="xyz.lob.referenceofcomputerscience.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_windows"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/commputer"
+        android:name="xyz.lob.referenceofcomputerscience.ui.computer.Commputer"
+        android:label="commputer_fragment"
+        tools:layout="@layout/commputer_fragment" />
+    <fragment
+        android:id="@+id/nav_formuls"
+        android:name="xyz.lob.referenceofcomputerscience.ui.formuls.FormulsFragment"
+        android:label="@string/menu_formuls"
+        tools:layout="@layout/formuls_fragment" />
+    <fragment
+        android:id="@+id/glossary"
+        android:name="xyz.lob.referenceofcomputerscience.ui.GlossaryFragment.Glossary"
+        android:label="glossary_fragment"
+        tools:layout="@layout/glossary_fragment" />
+
+
+</navigation>
