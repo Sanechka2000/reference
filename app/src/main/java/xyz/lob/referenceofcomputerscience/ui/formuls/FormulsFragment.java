@@ -39,7 +39,7 @@ public class FormulsFragment extends Fragment {
     }
 
     private void setInitialData(){
-        formuls.add(new Formul ("Huawei P10"));
+        formuls.add(new Formul ("Huawei Pапрарпр пр арпар парпа па рпа 10"));
         formuls.add(new Formul ("Elite z3"));
         formuls.add(new Formul ("Galaxy S8"));
         formuls.add(new Formul ("LG G 5"));
