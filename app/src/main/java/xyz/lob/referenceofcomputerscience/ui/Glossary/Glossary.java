@@ -1,4 +1,4 @@
-package xyz.lob.referenceofcomputerscience.ui.GlossaryFragment;
+package xyz.lob.referenceofcomputerscience.ui.Glossary;
 
 import androidx.lifecycle.ViewModelProvider;
 

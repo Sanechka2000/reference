@@ -23,9 +23,9 @@
         android:label="@string/menu_windows"
         tools:layout="@layout/fragment_slideshow" />
     <fragment
-        android:id="@+id/commputer"
+        android:id="@+id/nav_commputer"
         android:name="xyz.lob.referenceofcomputerscience.ui.computer.Commputer"
-        android:label="commputer_fragment"
+        android:label="@string/menu_computer"
         tools:layout="@layout/commputer_fragment" />
     <fragment
         android:id="@+id/nav_formuls"
@@ -33,10 +33,30 @@
         android:label="@string/menu_formuls"
         tools:layout="@layout/formuls_fragment" />
     <fragment
-        android:id="@+id/glossary"
-        android:name="xyz.lob.referenceofcomputerscience.ui.GlossaryFragment.Glossary"
-        android:label="glossary_fragment"
+        android:id="@+id/nav_glossary"
+        android:name="xyz.lob.referenceofcomputerscience.ui.Glossary.Glossary"
+        android:label="@string/menu_glossary"
         tools:layout="@layout/glossary_fragment" />
+    <fragment
+        android:id="@+id/nav_web"
+        android:name="xyz.lob.referenceofcomputerscience.ui.web.web"
+        android:label="@string/menu_web"
+        tools:layout="@layout/web_fragment" />
+    <fragment
+        android:id="@+id/nav_logic"
+        android:name="xyz.lob.referenceofcomputerscience.ui.logic.LogicFragment"
+        android:label="@string/menu_logic"
+        tools:layout="@layout/logic_fragment" />
+    <fragment
+        android:id="@+id/nav_systemNumber"
+        android:name="xyz.lob.referenceofcomputerscience.ui.systemNumber.SystemNumberFragment"
+        android:label="@string/menu_systemNumber"
+        tools:layout="@layout/system_number_fragment" />
+    <fragment
+        android:id="@+id/postFragment"
+        android:name="xyz.lob.referenceofcomputerscience.recycle.PostFragment"
+        android:label="fragment_item_list"
+        tools:layout="@layout/fragment_item_list" />
 
 
 </navigation>

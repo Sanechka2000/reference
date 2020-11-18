@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
 
-    <group>
+    <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
             android:icon="@drawable/ic_action_home"
@@ -13,28 +13,66 @@
     </group>
 
     <item
-        android:id="@+id/nav_header"
-        android:title="@string/menu_header">
+        android:id="@+id/nav_header1"
+        android:title="@string/menu_header1">
         <menu>
-            <group >
-                <item
-                    android:id="@+id/nav_formuls"
-                    android:title="@string/menu_formuls" />
-                <item
-                    android:id="@+id/glossary"
-                    android:title="Словарик :)" />
-                <item
-                    android:id="@+id/commputer"
-                    android:title="2" />
+            <group android:checkableBehavior="single">
+
+
                 <item
                     android:id="@+id/nav_windows"
                     android:icon="@drawable/ic_action_windows"
                     android:title="@string/menu_windows" />
                 <item
                     android:id="@+id/nav_linux"
-                    android:icon="@drawable/ic_action_linux"
                     android:title="@string/menu_linux" />
+
+
             </group>
         </menu>
     </item>
+
+    <item
+        android:id="@+id/nav_header2"
+        android:title="@string/menu_header2">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_web"
+                    android:icon="@drawable/ic_baseline_wifi_24"
+                    android:title="@string/menu_web" />
+                <item
+                    android:id="@+id/nav_commputer"
+                    android:icon="@drawable/ic_action_name"
+                    android:title="@string/menu_computer" />
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/nav_header3"
+        android:title="@string/menu_header3">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_logic"
+                    android:icon="@drawable/ic_baseline_expand_less_24"
+                    android:title="@string/menu_logic" />
+                <item
+                    android:id="@+id/nav_formuls"
+                    android:icon="@drawable/ic_baseline_calculate_24"
+                    android:title="@string/menu_formuls" />
+                <item
+                    android:id="@+id/nav_glossary"
+                    android:icon="@drawable/ic_baseline_glossary"
+                    android:title="@string/menu_glossary" />
+                <item
+                    android:id="@+id/nav_systemNumber"
+                    android:icon="@drawable/ic_baseline_exposure_zero_24"
+                    android:title="@string/menu_systemNumber" />
+
+            </group>
+        </menu>
+    </item>
+
 </menu>

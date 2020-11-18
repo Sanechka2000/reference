@@ -10,9 +10,15 @@
     <string name="menu_home">Домашняя страница</string>
     <string name="menu_linux">Linux</string>
     <string name="menu_windows">Windows</string>
+    <string name="menu_glossary">Глоссарий</string>
     <string name="menu_computer">Компоненты пк</string>
-    <string name="menu_header">Учебные материалы</string>
+    <string name="menu_header1">Операционные системы</string>
+    <string name="menu_header2">Устройство пк</string>
+    <string name="menu_header3">Учебные материалы</string>
     <string name="menu_formuls">Основные формулы</string>
+    <string name="menu_web">Сети</string>
+    <string name="menu_logic">Алгебра логики</string>
+    <string name="menu_systemNumber">Системы счисления</string>
 <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
